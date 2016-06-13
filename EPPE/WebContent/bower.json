@@ -1,0 +1,46 @@
+{
+  "name": "EPPE",
+  "description": "EPPE Built With MEAN Stack",
+  "main": "",
+  "keywords": [
+    "EPPE",
+    "MEAN",
+    "DUA",
+    "GOV",
+    "CMS"
+  ],
+  "authors": [
+    "Mitesh Pandya and Team"
+  ],
+  "license": "GOV",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": {
+      "css": "lib/css",
+      "js": "lib/js",
+      "eot": "lib/fonts",
+      "svg": "lib/fonts",
+      "ttf": "lib/fonts",
+      "woff": "lib/fonts"
+    }
+  },
+  "sources": {
+    "bootstrap": [
+      "bower_components/bootstrap/dist/css/bootstrap.css",
+      "bower_components/bootstrap/dist/fonts/*"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "1.5.5",
+    "angular-route": "^1.5.5"
+  }
+}

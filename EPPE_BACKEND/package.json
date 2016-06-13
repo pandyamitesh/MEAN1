@@ -1,0 +1,25 @@
+{
+  "name": "EPPE_BACKEND",
+  "version": "1.0.0",
+  "description": "Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "forever": "^0.15.1",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^4.12.0",
+     "mongoose": "~4.2.4",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1",
+    "swagger-express": ""
+  }
+}

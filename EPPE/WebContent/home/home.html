@@ -1,0 +1,25 @@
+<div ng-show="userLoggedIn">
+	<div class="col-xs-6 col-sm-3 sidebar-offcanvas"  id="leftNavDiv"
+		role="navigation">
+		<ul>
+			<li><a class="active" href="#homeDiv">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</div>
+	<div id="homeDiv" class="content col-xs-12 col-sm-9">
+		<div class="jumbotron">
+			<h1>Welcome To EPPE</h1>
+			<p>EPPE is an application that streamlines the process of
+				requesting data from the Centers for Medicare & Medicaid Services
+				(CMS) via an online Data Use Agreement (DUA).</p>
+		</div>
+	</div>
+</div>
+<div class="container" ng-hide="userLoggedIn">
+	<div class="jumbotron">
+		<h1>Wrong Username or Password</h1>
+
+	</div>
+</div>

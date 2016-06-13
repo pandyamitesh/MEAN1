@@ -1,0 +1,26 @@
+{
+  "name": "eppe-frontend",
+  "version": "1.0.0",
+  "description": "EPPE Angular Front End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitesh Pandya",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "jshint-stylish": "latest"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "swagger-ui": "^2.1.4"
+  }
+}

@@ -1,0 +1,5 @@
+.settings
+bower_components
+build
+node_modules
+.project

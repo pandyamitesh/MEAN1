@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EPPE</title>
+<link rel="stylesheet" href="lib/css/bootstrap.css"/>
+<link rel="stylesheet" href="lib/css/eppe.css"/>
+<link rel="stylesheet" href="lib/css/stylish-portfolio.css"/>
+<script src="lib/js/jquery/jquery.js"></script>
+<script src="lib/js/bootstrap/bootstrap.js"></script>
+<script src="lib/js/angular/angular.js"></script>
+<script src="lib/js/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="home/homeController.js"></script>
+<script src="login/loginController.js"></script>
+<!-- <script src="dist/js/appc.js"></script> -->
+</head>
+<body>
+<div ng-app="eppeApp">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#/welcome">EPPE</a>
+			</div>
+			<ul class="nav navbar-nav" ng-show="userLoggedIn">
+				<li class="active"><a href="#/home">Home</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#/login">Login</a></li>
+			</ul>
+		</div>
+	</nav>	
+<div ng-view></div>
+</div>
+</body>
+</html>
